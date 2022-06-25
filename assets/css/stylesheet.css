@@ -1,0 +1,134 @@
+
+
+
+header {
+   
+    width:1200px;
+    height: 50px;
+    padding: auto;
+    background-color:#2D733E;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+menu ul li {
+    background-color:#328C49;
+}
+
+menu ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+menu ul a {
+  display:inline-block;
+  color:#F2F2F2;
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+menu ul li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+menu ul li:hover {
+  background:#328C49;
+}
+
+menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  padding:0;
+}
+
+menu ul ul li {
+  float:none;
+  width:150px
+}
+
+menu ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+}
+
+menu ul li:hover > ul {
+  display:inline-block;
+}
+
+body {
+    
+    width: auto;
+    padding:0%;
+    height:auto;
+    background-color:#328C49;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+*{
+  margin:0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-align:center;
+
+
+}
+
+.centro{
+  display:grid;
+  grid-template-columns:200px auto 200px;
+  grid-template-rows:350px auto 350px;
+
+}
+
+.a{
+  background-image:url(verde1.jpg) ;
+  background-position: top center;
+  background-repeat: no-repeat;
+  text-align: center;
+  border:solid #2D733E 2px;
+
+}  
+.b{
+
+  background:radial-gradient( ) ; 
+  text-align: center;
+  border:3px solid #2D733E;
+}
+
+.c{
+  background-image:url(bordo2.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  text-align: center;
+  border:2px solid #2D733E;
+}
+
+
+footer {
+    text-align:end;
+    width: auto;
+    padding:auto;
+    height: auto;
+    background-color:#2D733E;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media(min-width:575px){
+  
+}
+
+
+  
